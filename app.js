@@ -453,7 +453,7 @@ function email_alert(alert_title, alert_message) {
 	}
 
 	console.log("[Glass Server] Loading E-Mail template...");
-	var fs         = require('fs');
+	var fs         = require('file-system');
 	var email_body = fs.readFileSync('./public/templates/email_template.html', "utf8");
 	console.log("[Glass Server] Loading E-Mail template... DONE...");
 
