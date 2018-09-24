@@ -2,7 +2,7 @@
  * Created by cmiles on 8/5/2017.
  */
 
-var fs = require('fs');
+var fs = require('file-system');
 
 module.exports = {
     get_index_template: function (body_content, request_url) {
