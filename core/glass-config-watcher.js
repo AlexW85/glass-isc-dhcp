@@ -1,4 +1,4 @@
-var fs         = require('fs');
+var fs         = require('file-system');
 var json_file  = require('jsonfile');
 
 module.exports = {
