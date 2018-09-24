@@ -1,5 +1,5 @@
 var lease_parser = require('./lease-parser.js');
-var fs           = require('fs');
+var fs           = require('file-system');
 var tail         = require('always-tail2');
 
 module.exports = {
