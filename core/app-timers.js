@@ -1,4 +1,4 @@
-var fs         = require('fs');
+var fs         = require('file-system');
 const execSync = require('child_process').execSync;
 
 module.exports = {
