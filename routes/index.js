@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var fs = require('fs');
+var fs = require('file-system');
 var template_render = require('../core/render-template.js');
 
 /* GET home page. */
