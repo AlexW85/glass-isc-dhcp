@@ -4,6 +4,7 @@
 
 var express = require('express');
 var router = express.Router();
+var fs = require('file-system')
 
 var authorize = require('../core/authorize.js');
 
